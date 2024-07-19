@@ -1,0 +1,33 @@
+.metricas-container {
+    padding: 0 32px 96px 32px;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    justify-content: space-evenly;
+}
+
+.metrica {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    width: 280px;
+}
+
+.metrica__numero {
+    color: var(--cor-vermelho);
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+}
+
+.metrica__titulo {
+    font-size: 18px;
+    color: var(--cor-preto);
+    line-height: 28px;
+}
+
+.metrica__paragrafo {
+    font-weight: 400;
+    color: var(--cor-secundaria);
+    line-height: 24px;
+}

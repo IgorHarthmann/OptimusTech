@@ -1,0 +1,38 @@
+.vagas {
+    padding: 6em 0;
+}
+
+.vagas__talentos {
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+    padding: 0 2em;
+}
+
+.talentos__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25em;
+}
+
+.talentos__ancora {
+    text-decoration: none;
+    color: var(--cor-vermelho);
+    background-color: var(--cor-vermelho-secundario);
+    border-radius: 16px;
+    padding: 0.25em 0.75em;
+    font-size: 14px;
+}
+
+.talentos__titulo {
+    font-size: 2.25em;
+    font-weight: 600;
+    color: var(--cor-preto);
+}
+
+.talentos__paragrafo {
+    font-size: 1.25em;
+    font-weight: 400;
+    color: var(--cor-secundaria);
+}
