@@ -11,7 +11,7 @@
 .container__titulo {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 0.5em;
     margin: 0;
 }
 
@@ -22,7 +22,7 @@
 
 .container__navegacao {
     display: flex;
-    gap: 32px;
+    gap: 2em;
 }
 
 .navegacao__link {
@@ -33,13 +33,13 @@
 .container__botoes {
     margin-left: 15em;
     display: flex;
-    gap: 8px;
+    gap: 0.5em;
 }
 
 .botoes__botao-entrar,
 .botoes__botao-cadastrar {
     text-decoration: none;
-    padding: 13px 18px 13px 18px;
+    padding: 0.75em 1.125em;
 }
 
 .botoes__botao-entrar {

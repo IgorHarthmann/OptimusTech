@@ -2,8 +2,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 96px 16%;
-    gap: 24px;
+    padding: 6em 16%;
+    gap: 1.5em;
 }
 
 .cabecalho__link {
@@ -22,7 +22,7 @@
     color: var(--cor-secundaria);
     font-weight: 400;
     font-size: 20px;
-    padding-top: 12px;
+    padding-top: 0.75em;
     text-align: center;
     line-height: 30px;
 }

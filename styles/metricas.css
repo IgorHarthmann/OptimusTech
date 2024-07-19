@@ -1,8 +1,8 @@
 .metricas-container {
-    padding: 0 32px 96px 32px;
+    padding: 0 2em 6em 2em;
     display: flex;
     flex-direction: row;
-    gap: 32px;
+    gap: 2em;
     justify-content: space-evenly;
 }
 
