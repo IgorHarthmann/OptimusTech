@@ -1,0 +1,43 @@
+.depoimentos {
+    padding: 0 2em 6em 2em;
+}
+
+.depoimentos__container {
+    padding: 4em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+    border-radius: 16px;
+    background-color: var(--cor-vermelho-terceario);
+}
+
+.container__texto,
+.container__usuario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    text-align: center;
+}
+
+.span-depoimentos {
+    font-weight: 600;
+    font-size: 0.875em;
+    color: var(--cor-vermelho);
+}
+
+.paragrafo-depoimentos {
+    font-size: 2.25em;
+    color: var(--cor-preto);
+}
+
+.span-nome {
+    color: var(--cor-preto);
+}
+
+.span-emprego {
+    font-weight: 400;
+    font-size: 0.875em;
+    color: var(--cor-secundaria);
+}
