@@ -3,12 +3,16 @@
 @import url(/styles/metricas.css);
 @import url(/styles/vagas.css);
 @import url(/styles/depoimentos.css);
+@import url(/styles/rodape.css);
 
 :root {
     --cor-primaria: rgba(58, 64, 78, 1);
     --cor-secundaria: rgba(102, 112, 133, 1);
+    --cor-cinza: rgba(152, 162, 179, 1);
+    --cor-cinza-secundario: rgba(208, 213, 221, 1);
     --cor-branco: rgba(255, 255, 255, 1);
     --cor-branco-secundario: rgba(234, 236, 240, 1);
+    --cor-branco-terceario: rgba(249, 250, 251, 1);
     --cor-vermelho: rgba(142, 36, 36, 1);
     --cor-vermelho-secundario: rgba(142, 36, 36, 0.05);
     --cor-vermelho-terceario: rgba(195, 25, 25, 0.03);
